@@ -1,7 +1,7 @@
 // @flow
 
 import DataLoader from 'dataloader';
-import { Contact as ContactModel } from '../model';
+import { Contact as ContactModel } from '../../model';
 import connectionFromMongoCursor from './ConnectionFromMongoCursor';
 import mongooseLoader from './mongooseLoader';
 

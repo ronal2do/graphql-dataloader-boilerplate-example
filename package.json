@@ -79,10 +79,10 @@
     "lint": "eslint src/**",
     "precommit": "lint-staged",
     "repl": "nodemon --config ./repl/nodemon.json ./repl.js --exec babel-node",
-    "start": "node dist/index.js",
+    "start": "node dist/graphql/index.js",
     "test": "jest --coverage --forceExit --runInBand",
     "test:watch": "jest --watch --coverage",
     "update-schema": "babel-node ./scripts/updateSchema.js",
-    "watch": "nodemon src/index.js --exec babel-node"
+    "watch": "nodemon src/graphql/index.js --exec babel-node"
   }
 }

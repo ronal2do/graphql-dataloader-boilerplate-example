@@ -1,8 +1,8 @@
 // @flow
 
 import jwt from 'jsonwebtoken';
-import { User } from './model';
-import { jwtSecret } from './config';
+import { User } from '../model';
+import { jwtSecret } from '../common/config';
 
 export async function getUser(token: string) {
   if (!token) return { user: null };

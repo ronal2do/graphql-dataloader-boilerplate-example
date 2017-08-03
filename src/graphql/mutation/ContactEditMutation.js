@@ -3,7 +3,7 @@
 import { GraphQLString, GraphQLNonNull, GraphQLID } from 'graphql';
 import { mutationWithClientMutationId, fromGlobalId } from 'graphql-relay';
 
-import Contact from '../model/Contact';
+import { Contact } from '../../model';
 
 import ContactType from '../type/ContactType';
 import ContactLoader from '../loader/ContactLoader';

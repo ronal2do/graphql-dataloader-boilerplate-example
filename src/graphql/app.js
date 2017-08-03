@@ -13,7 +13,7 @@ import Router from 'koa-router';
 import { print } from 'graphql/language';
 
 import { schema } from './schema';
-import { jwtSecret } from './config';
+import { jwtSecret } from '../common/config';
 import { getUser } from './auth';
 import * as loaders from './loader';
 

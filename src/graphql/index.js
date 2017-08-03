@@ -1,8 +1,8 @@
 // @flow
 import 'babel-polyfill';
 import app from './app';
-import connectDatabase from './database';
-import { graphqlPort } from './config';
+import connectDatabase from '../common/database';
+import { graphqlPort } from '../common/config';
 
 (async () => {
   try {
